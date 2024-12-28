@@ -1,0 +1,100 @@
+
+div {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #f213cd;
+    border-radius: 10px;
+    background-color:#10c9f3;
+    /*background: linear-gradient(to bottom, #f9f9f9, #e0f7fa);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);*/
+  }
+  
+  div > div:first-child {
+    font-size: 35px;
+    font-weight: bold;
+    color: #f213cd;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    border: 3px solid #f213cd;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 35px;
+    background-color: #f213cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #03839f;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #f213cd;
+  }
+  
+  div:last-child {
+    margin-top: 10px;
+  }
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.points{
+    font-size: 35px;
+}
+
+#imeto {
+    font-size: 35px;
+    text-decoration: underline; 
+}
+
+.vozac-team{
+    font-size: 35px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: #f213cd;
+    text-emphasis-color: white;
+}
+
+.vozac-team:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#dugme,#slika{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#imeto, #slika, .vozac-team, .points, #dugme button {
+    outline: none;
+  }
+  
+  #imeto:focus, #slika:focus, .vozac-team:focus, .points:focus, #dugme button:focus {
+    outline: 3px solid #014695; /* Custom focus outline color */
+    outline-offset: 3px;
+  }
+  

@@ -1,0 +1,9 @@
+
+#imeto, #slika, .vozac-team, .points, #dugme button {
+    outline: none;
+  }
+  
+  #imeto:focus, #slika:focus, .vozac-team:focus, .points:focus, #dugme button:focus {
+    outline: 3px solid #014695; /* Custom focus outline color */
+    outline-offset: 3px;
+  }
